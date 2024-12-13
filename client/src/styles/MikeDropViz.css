@@ -1,0 +1,78 @@
+.mikedrop-container {
+  display: flex;
+  width: 100%;
+  min-height: 600px;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.mikedrop-visualization {
+  flex: 1 1 70%;
+  position: relative;
+  overflow: hidden;
+}
+
+.mikedrop-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.mikedrop-controls {
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-left: 1px solid #333333;
+  overflow-y: auto;
+}
+
+.mikedrop-control-section {
+  margin-bottom: 24px;
+}
+
+.mikedrop-control-header {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.mikedrop-control-label {
+  display: block;
+  color: #cccccc;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.mikedrop-slider {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.mikedrop-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a156b;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.mikedrop-button.active {
+  background-color: #6b2b8f;
+}
+
+.mikedrop-metrics {
+  margin-top: 12px;
+  padding: 12px;
+  background-color: #2a2a2a;
+  border-radius: 4px;
+  color: #cccccc;
+}
+
+.mikedrop-metrics p {
+  margin: 4px 0;
+  font-size: 14px;
+}
